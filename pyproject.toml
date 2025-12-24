@@ -1,0 +1,28 @@
+[project]
+name = "ai_grader"
+version = "0.1.0"
+description = "AI Homework Grader using Multi-Agent RAG"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+dependencies = [
+    "langchain>=0.1.0",
+    "langgraph>=0.0.10",
+    "langchain-openai>=0.0.5",
+    "chromadb>=0.4.22",
+    "pydantic>=2.6.0",
+    "python-dotenv>=1.0.0",
+    "unstructured[pdf]>=0.12.0",
+    "pdf2image>=1.17.0",
+    "pdfminer.six>=20231228",
+    "pillow>=10.2.0",
+    "tiktoken>=0.5.2"
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
+venv/
+.env
+
+# Data
+data/chroma_db/
+data/submissions/
+data/rubrics/
+!data/rubrics/.gitkeep
+!data/submissions/.gitkeep
+
+# IDE
+.vscode/
+.idea/

@@ -10,6 +10,7 @@ venv/
 
 # Data
 data/chroma_db/
+data/results/
 data/submissions/
 data/rubrics/
 !data/rubrics/.gitkeep
